@@ -1,0 +1,6 @@
+a = 'Привет'.upper()
+print(a)
+b = 'МИР'.lower()
+print(b)
+c = 'python'.capitalize()
+print(c)

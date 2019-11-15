@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+    var euroRate = 72.38;
+    var usdRate = 65.54;
+
+    euroRate = parseInt(euroRate);
+    usdRate = parseInt(usdRate);
+
+    var amount = prompt("Пожалуйста, введите количество рублей");
+
+    alert("Сумма в долларах: " + (amount / usdRate).toFixed(2));
+    alert("Сумма в евро: " + (amount / euroRate).toFixed(2));
+</script>
